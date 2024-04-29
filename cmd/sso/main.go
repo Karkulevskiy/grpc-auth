@@ -16,6 +16,8 @@ const (
 	envProd  = "prod"
 )
 
+// TODO: сделать makefile, решить вопрос с миграциями
+
 func main() {
 	cfg := config.MustLoad()
 
